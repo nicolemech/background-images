@@ -4,6 +4,7 @@
 body {
 	background-color: black;
 	padding: 1rem 3rem;
+  background-image: url(tile.png);
 }
 
 header {
@@ -13,11 +14,16 @@ header {
 	color: white;
 	font-size: 225%;
 	background-color: #aeabab;
+  background-image: url(bkg_header.jpg);
 }
 
 h2 {
 	font-size: 125%;
 	padding: .5rem;
+  background-image: url(c-paw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 
 .property {
@@ -26,6 +32,10 @@ h2 {
 	border-radius: 1rem;
 	background-color: #e2e1d2;
 	font-family: monospace;
+  background-image: url(watermark.png);
+  background-size: 75px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 
